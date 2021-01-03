@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(/image/pineapple.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    color: #1877f2;
+}
+img{
+    width: 80px;
+    border-radius: 100px;
+    margin-top: -50px;
+}
+.container{
+    margin: 60px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    padding: 20px;
+}
+.box{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 18px;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    margin: -20px auto 10px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.fab {
+    padding: 10px;
+}
+.social-area{
+    margin-top: 20px;
+}
+.social-area i:nth-child(1){
+    color: #1877f2;
+}
+.social-area i:nth-child(2){
+    color: #55acee;
+}
+.social-area i:nth-child(3){
+    color: #0073b1;
+}
+.social-area i:nth-child(4){
+    color: #bd081c;
+}
